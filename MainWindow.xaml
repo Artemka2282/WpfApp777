@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp7"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Red">
+    <Grid Background="Purple">
         <Button Margin="400,163,98,163" Click="Button_Click"  x:Name="Tik" Content="Переход">
 
         </Button>
