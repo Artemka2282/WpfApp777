@@ -6,9 +6,13 @@
         xmlns:local="clr-namespace:WpfApp7"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Margin="249,163,249,163" Click="Button_Click">
-            
+    <Grid Background="Yellow">
+        <Button Margin="400,163,98,163" Click="Button_Click"  x:Name="Tik" Content="Переход">
+
         </Button>
+        <Button  Click="Text1_Click"  Margin="45,157,507,156" x:Name="Text1" Content="Для галочки">
+
+        </Button>
+        <TextBox Margin="230,45,230,305" x:Name="Vvod"></TextBox>
     </Grid>
 </Window>

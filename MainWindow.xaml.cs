@@ -29,5 +29,10 @@ namespace WpfApp7
         {
             MessageBox.Show("Вывод");
         }
+
+        private void Text1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(Vvod.Text);
+        }
     }
 }
